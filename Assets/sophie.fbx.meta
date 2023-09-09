@@ -3,7 +3,47 @@ guid: fea9341e70cdfd807a69929971ca9a28
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ch02_body
+    second: {fileID: 2100000, guid: 81094562e35fa783fb896b3ed5cb265c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ch02_hair
+    second: {fileID: 2100000, guid: 593d3fa2c66800f11819bd634a99a62a, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Ch02_1001_Diffuse
+    second: {fileID: 2800000, guid: eabb0c251f9e04aff9ec54636916599a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Ch02_1001_Glossiness
+    second: {fileID: 2800000, guid: 1c2afdefa83dd230682d20b11a999991, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Ch02_1001_Normal
+    second: {fileID: 2800000, guid: 9f9f35a1ab8cf877fa2b41a7d58759fa, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Ch02_1001_Specular
+    second: {fileID: 2800000, guid: 760cc8a24971f43289c551cf7548648f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Ch02_1002_Diffuse
+    second: {fileID: 2800000, guid: 0cce584b37ebd2fe29ace89b84586257, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Ch02_1002_Normal
+    second: {fileID: 2800000, guid: 0c48e5eee51620c6698e313a9753e52e, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -100,7 +140,7 @@ ModelImporter:
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 0
+  avatarSetup: 1
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   importBlendShapeDeformPercent: 1
   remapMaterialsIfMaterialImportModeIsNone: 0
